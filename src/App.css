@@ -1,0 +1,50 @@
+/* App.css */
+
+/* Styles for the container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Grid with flexible column width */
+  gap: 20px; /* Gap between cards */
+  justify-items: center; /* Center cards horizontally */
+}
+
+/* Styles for the card */
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the question title */
+h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+
+/* Styles for the answer text */
+p {
+  color: #666;
+}
+
+/* Styles for the input */
+/* Styles for the input container */
+/* Styles for the input container */
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for the input */
+input[type="text"] {
+  width: 300px; /* Shorter width */
+  padding: 12px;
+  font-size: 1.25rem; /* Make input bigger */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px; /* Increase bottom margin */
+}
+
+
